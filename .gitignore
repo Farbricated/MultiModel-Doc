@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+
+# Logs
+*.log
+
+# Data outputs (keep folder, ignore files)
+data/output/*.json
+data/output/*.pdf
+data/output/*.png
+
+# Temporary
+*.tmp
+*.bak
+
+# OS
+Thumbs.db
+desktop.ini
